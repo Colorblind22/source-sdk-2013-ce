@@ -5,6 +5,16 @@
 //=============================================================================
 
 @include "base.fgd"
+@include "halflife2.fgd"
+
+
+@PointClass base(Targetname) = my_logical_entity : "Tutorial logical entity"
+[
+	threshold(integer) : "Threshold" : 1 : "Threshold value"
+	input Tick(void) : "Adds one tick to entity's count"
+	output OnThreshold(void) : "Threshold was hit"
+]
+
 
 //-------------------------------------------------------------------------
 //
