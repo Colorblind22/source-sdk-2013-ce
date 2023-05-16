@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6440"
-	"mapversion" "38"
+	"mapversion" "40"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "38"
+	"mapversion" "40"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6665,7 +6665,7 @@ entity
 	"distance" "90"
 	"dmg" "0"
 	"forceclosed" "0"
-	"hardware" "1"
+	"hardware" "3"
 	"health" "0"
 	"model" "models/props_doors/door03_slotted_left.mdl"
 	"modelscale" "1.0"
